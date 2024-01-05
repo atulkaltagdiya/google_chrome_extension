@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Get your QR code",
+    "version": "1.0",
+    "description": "Get your QR code",
+    "browser_action": {
+      "default_icon": {
+        "16": "images/qr.png",
+        "48": "images/qr.png",
+        "128": "images/qr.png"
+      },
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "images/qr.png",
+      "48": "images/qr.png",
+      "128": "images/qr.png"
+    },
+    "permissions": [
+      "clipboardRead"
+    ],
+    "content_security_policy":  "script-src 'self' https://cdn.jsdelivr.net; object-src 'self'"
+  }
+  
